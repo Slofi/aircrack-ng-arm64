@@ -68,3 +68,7 @@ sudo airodump-ng wlan0mon
 ## Why does this exist
 
 Because it kept coming up and the solution was always "build from source" with no script to actually do it. Now there is one.
+
+## Credits
+
+All credit for aircrack-ng itself goes to Thomas d'Otreppe and the aircrack-ng contributors. This repo is just a build script to make their tool accessible on arm64 Ubuntu 24.04 where the package isn't available. The actual project lives at https://github.com/aircrack-ng/aircrack-ng — go give them a star too.
