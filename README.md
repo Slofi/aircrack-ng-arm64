@@ -1,6 +1,6 @@
 # aircrack-ng on Ubuntu 24.04 arm64
 
-If you're running Ubuntu 24.04 (Noble) on an arm64 device — a Rock 5B, a Pi, an Orange Pi, whatever, and you tried to install aircrack-ng the normal way, you already know:
+If you're running Ubuntu 24.04 (Noble) on an arm64 device like a Rock 5B, a Pi, an Orange Pi, whatever, and you tried to install aircrack-ng the normal way, you already know:
 
 ```
 E: Package 'aircrack-ng' has no installation candidate
