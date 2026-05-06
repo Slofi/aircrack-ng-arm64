@@ -1,6 +1,6 @@
 # aircrack-ng on Ubuntu 24.04 arm64
 
-If you're running Ubuntu 24.04 (Noble) on an arm64 device — a Rock 5B, a Pi, an Orange Pi, whatever — and you tried to install aircrack-ng the normal way, you already know:
+If you're running Ubuntu 24.04 (Noble) on an arm64 device — a Rock 5B, a Pi, an Orange Pi, whatever, and you tried to install aircrack-ng the normal way, you already know:
 
 ```
 E: Package 'aircrack-ng' has no installation candidate
@@ -10,11 +10,11 @@ The package exists for amd64 but not arm64 in the Noble repos. The fix is buildi
 
 ## What it installs
 
-- `aircrack-ng` — the main cracker
-- `airmon-ng` — puts your adapter in monitor mode
-- `airodump-ng` — captures packets / scans networks
-- `aireplay-ng` — injection and deauth
-- `airdecap-ng` — decrypts captured traffic
+- `aircrack-ng` - the main cracker
+- `airmon-ng` - puts your adapter in monitor mode
+- `airodump-ng` - captures packets / scans networks
+- `aireplay-ng` - injection and deauth
+- `airdecap-ng` - decrypts captured traffic
 
 Latest version, built directly from the [official aircrack-ng repo](https://github.com/aircrack-ng/aircrack-ng).
 
@@ -35,7 +35,7 @@ chmod +x build.sh
 
 That's it. The script handles dependencies, cloning, compiling with all cores, installing, and cleaning up after itself.
 
-Compile time is a few minutes on something like a Rock 5B (RK3588). Slower boards will take longer — just let it run.
+Compile time is a few minutes on something like a Rock 5B (RK3588). Slower boards will take longer, just let it run.
 
 ## After install
 
